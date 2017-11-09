@@ -1,0 +1,39 @@
+.projects-section {
+  padding: 70px 0 90px 0;
+}
+
+.projects-list {
+  li {
+    display: flex;
+    justify-content: space-between;
+
+    .list-content {
+      max-width: 560px;
+      padding: 50px 0 60px 0;
+
+      h3 {
+        color: #191b29;
+        font: 700 30px/48px $Roboto-Slab;
+        margin-bottom: 25px;
+      }
+
+      p {
+        color: #191b29;
+        font: 300 16px/30px $Roboto;
+        margin-bottom: 50px;
+      }
+
+      .main-button {
+        margin: 0;
+      }
+    }
+
+    .image-content {
+      display: block;
+      width: 585px;
+      height: 405px;
+      background-color: cadetblue;
+    }
+  }
+}
+

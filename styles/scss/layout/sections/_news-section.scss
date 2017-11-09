@@ -1,0 +1,39 @@
+.news-section {
+  background-color: #edeff1;
+  padding: 80px 0 100px 0;
+
+  h3 {
+    color: #31353e;
+    font: 700 30px/24px $Roboto-Slab;
+    text-align: center;
+    margin-bottom: 85px;
+  }
+}
+
+.news-list {
+  display: flex;
+  justify-content: space-between;
+
+  li {
+    text-align: center;
+
+    img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 40px;
+    }
+
+    h4 {
+      color: #31353e;
+      font: 700 24px/30px $Roboto-Slab;
+      margin-bottom: 15px;
+    }
+
+    p {
+      max-width: 285px;
+      margin: 0 auto 40px auto;
+      color: #31353e;
+      font: 300 15px/30px $Roboto;
+    }
+  }
+}
