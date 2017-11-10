@@ -1,5 +1,6 @@
 @import "compass/reset";
 
+@import "base/base";
 @import "base/variables";
 
 @import "layout/header";
@@ -9,90 +10,8 @@
 @import "layout/sections/projects-list";
 @import "layout/footer";
 
+@import "base/media";
 
-body {
-  font-size: 14px;
-}
 
-a {
-  text-decoration: none;
-}
 
-input:focus,
-button:focus {
-  outline: none;
-}
 
-button:hover {
-  cursor: pointer;
-}
-
-.wrapper {
-  max-width: 1190px;
-  width: 100%;
-  margin: 0 auto;
-
-  @media (max-width: 1199px) {
-    width: 992px;
-  }
-
-  @media (max-width: 991px) {
-    width: 768px;
-  }
-
-  @media (max-width: 767px) {
-    width: 575px;
-  }
-
-  @media (max-width: 500px) {
-    width: 100%;
-  }
-}
-
-.wrapper-big {
-  max-width: 1210px;
-  margin: 0 auto;
-
-  @media (max-width: 1199px) {
-    width: 992px;
-  }
-
-  @media (max-width: 991px) {
-    width: 768px;
-  }
-
-  @media (max-width: 767px) {
-    width: 575px;
-  }
-
-  @media (max-width: 500px) {
-    width: 100%;
-  }
-}
-
-.logo {
-  width: 157px;
-  height: 52px;
-}
-
-.main-button {
-  display: block;
-  margin: 0 auto;
-  width: 213px;
-  height: 54px;
-  border-radius: 27px;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  background-color: #fff;
-  color: #612316;
-  font: 400 18px/30px $Roboto-Slab;
-}
-
-.read-more-button {
-  width: 179px;
-  height: 54px;
-  border-radius: 27px;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  background-color: #fff;
-  color: #4e5159;
-  font: 300 15px/30px $Roboto;
-}
