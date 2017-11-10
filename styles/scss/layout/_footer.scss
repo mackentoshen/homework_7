@@ -12,11 +12,9 @@
       flex-direction: column;
       width: 33%;
 
-      @media (max-width: 991px) {
-        width: 50%;
-      }
-
-
+      //@media (max-width: 991px) {
+      //  width: 50%;
+      //}
 
       a {
         font: 400 18px/36px $Roboto;

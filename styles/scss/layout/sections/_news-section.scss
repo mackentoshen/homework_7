@@ -15,8 +15,14 @@
   justify-content: space-between;
 
   li {
+    max-width: 370px;
+    width: 100%;
+    margin-right: 20px;
     text-align: center;
 
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
     img {
       width: 100%;
       height: auto;

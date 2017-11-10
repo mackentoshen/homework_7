@@ -33,10 +33,11 @@
     }
 
     .image-content {
-      display: block;
       width: 48%;
       height: auto;
-      background-color: cadetblue;
+      max-height: 585px;
+      overflow: hidden;
+      border:1px solid #dbdbdb;
     }
 
     &:nth-child(even) {
@@ -53,7 +54,5 @@
       }
     }
   }
-
-
 }
 
