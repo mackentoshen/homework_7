@@ -1,9 +1,17 @@
 .welcome-section {
-  //background: url("../../../../images/welcome-background.png") center center no-repeat;
-  //background-size: cover;
-  background-color: #311d5e;
-  padding: 490px 0 140px 0;
-  //height: calc(100vh - 155px);
+  background: url("../../images/welcome-background.png") center center no-repeat;
+  background-size: cover;
+  padding: 30px 0 40px 0;
+  min-height: calc(100vh - 155px);
+
+  box-sizing: border-box;
+  position: relative;
+
+  .wrapper {
+    position: relative;
+    top: auto;
+    bottom: 0;
+  }
 
   h2 {
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
@@ -32,16 +40,16 @@
 
     img {
       display: block;
-      //margin-bottom: 35px;
       margin: 0 auto 35px auto;
       width: 135px;
       height: 135px;
+      border-radius: 50%;
     }
 
     h3 {
       color: #ffffff;
       font: 700 30px/24px $Roboto-Slab;
-      margin-bottom: 30px;
+      margin-bottom: 25px;
       text-decoration: none;
     }
 

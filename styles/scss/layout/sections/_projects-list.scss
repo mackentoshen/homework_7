@@ -1,15 +1,17 @@
 .projects-section {
-  padding: 70px 0 90px 0;
+  padding: 70px 0 80px 0;
 }
 
 .projects-list {
   li {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 
     .list-content {
-      max-width: 560px;
-      padding: 50px 0 60px 0;
+      max-width: 52%;
+      padding: 50px;
+      box-sizing: border-box;
 
       h3 {
         color: #191b29;
@@ -25,15 +27,33 @@
 
       .main-button {
         margin: 0;
+        background-color: #dd4b2b;
+        color: $white;
       }
     }
 
     .image-content {
       display: block;
-      width: 585px;
-      height: 405px;
+      width: 48%;
+      height: auto;
       background-color: cadetblue;
     }
+
+    &:nth-child(even) {
+      .list-content {
+        order: 2;
+      }
+
+      .image-content {
+        order: 1;
+      }
+
+      .main-button {
+        background-color: #4b4e73;
+      }
+    }
   }
+
+
 }
 
