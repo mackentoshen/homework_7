@@ -99,7 +99,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .welcome-section {
   background: url("../../images/welcome-background.png") center center no-repeat;
   background-size: cover;
-  padding: 30px 0 40px 0;
+  padding: 100px 0 40px 0;
   min-height: calc(100vh - 155px);
   box-sizing: border-box;
   position: relative;
@@ -542,6 +542,138 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
+  }
+  /* line 170, ../scss/base/_media.scss */
+  .projects-list li .list-content {
+    max-width: 100%;
+    padding: 25px;
+    order: 2;
+  }
+  /* line 175, ../scss/base/_media.scss */
+  .projects-list li .list-content h3 {
+    text-align: center;
+    font: 700 20px/48px "Roboto Slab", serif;
+    margin-bottom: 15px;
+  }
+  /* line 181, ../scss/base/_media.scss */
+  .projects-list li .list-content p {
+    font: 300 14px/30px "Roboto", sans-serif;
+    margin-bottom: 20px;
+  }
+  /* line 186, ../scss/base/_media.scss */
+  .projects-list li .list-content .main-button {
+    margin: 0 auto;
+    width: 150px;
+    height: 40px;
+    font: 400 14px/30px "Roboto Slab", serif;
+  }
+  /* line 194, ../scss/base/_media.scss */
+  .projects-list li .image-content {
+    width: 100%;
+    height: auto;
+    height: 200px;
+    overflow: hidden;
+    border: 1px solid #dbdbdb;
+    order: 1;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* line 208, ../scss/base/_media.scss */
+  .welcome-section h2 {
+    font: 300 35px/48px "Roboto Slab", serif;
+    margin-bottom: 10px;
+  }
+  /* line 213, ../scss/base/_media.scss */
+  .welcome-section h3 {
+    font: 700 25px/48px "Roboto Slab", serif;
+    margin-bottom: 50px;
+  }
+  /* line 219, ../scss/base/_media.scss */
+  .welcome-section .welcome-dishes li {
+    margin-bottom: 50px;
+  }
+  /* line 222, ../scss/base/_media.scss */
+  .welcome-section .welcome-dishes li h3 {
+    font: 700 20px/24px "Roboto Slab", serif;
+    margin-bottom: 15px;
+  }
+  /* line 227, ../scss/base/_media.scss */
+  .welcome-section .welcome-dishes li p {
+    font: 300 15px/30px "Roboto", sans-serif;
+  }
+  /* line 233, ../scss/base/_media.scss */
+  .welcome-section .main-button {
+    width: 150px;
+    height: 40px;
+    font: 400 14px/30px "Roboto Slab", serif;
+  }
+
+  /* line 241, ../scss/base/_media.scss */
+  .news-section h3 {
+    font: 700 25px/48px "Roboto Slab", serif;
+    margin-bottom: 50px;
+  }
+  /* line 247, ../scss/base/_media.scss */
+  .news-section .news-list h4 {
+    font: 700 20px/24px "Roboto Slab", serif;
+    margin-bottom: 15px;
+  }
+  /* line 252, ../scss/base/_media.scss */
+  .news-section .news-list p {
+    font: 300 15px/30px "Roboto", sans-serif;
+  }
+  /* line 256, ../scss/base/_media.scss */
+  .news-section .news-list .read-more-button {
+    width: 120px;
+    height: 50px;
+    font: 300 12px/30px "Roboto", sans-serif;
+  }
+
+  /* line 265, ../scss/base/_media.scss */
+  .newsletter-section h3 {
+    font: 700 25px/48px "Roboto Slab", serif;
+  }
+  /* line 269, ../scss/base/_media.scss */
+  .newsletter-section p {
+    font: 300 15px/25px "Roboto", sans-serif;
+    max-width: 300px;
+  }
+  /* line 274, ../scss/base/_media.scss */
+  .newsletter-section form {
+    max-width: 300px;
+  }
+  /* line 277, ../scss/base/_media.scss */
+  .newsletter-section form input {
+    font: 400 12px/30px "Roboto Slab", serif;
+    height: 40px;
+    padding: 0 150px 0 15px;
+  }
+  /* line 283, ../scss/base/_media.scss */
+  .newsletter-section form .main-button {
+    width: 150px;
+    height: 40px;
+    font: 400 14px/30px "Roboto Slab", serif;
+  }
+
+  /* line 292, ../scss/base/_media.scss */
+  .footer-top .footer-list {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 296, ../scss/base/_media.scss */
+  .footer-top .footer-list li {
+    width: 100%;
+    margin: 0 auto 20px auto;
+  }
+  /* line 300, ../scss/base/_media.scss */
+  .footer-top .footer-list li a {
+    font: 400 13px/20px "Roboto", sans-serif;
+  }
+
+  /* line 308, ../scss/base/_media.scss */
+  .footer-bottom p {
+    font: 300 13px/20px "Roboto", sans-serif;
+    max-width: 300px;
   }
 }
 /* line 17, ../scss/style.scss */
